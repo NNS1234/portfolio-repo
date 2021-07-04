@@ -13,7 +13,7 @@ input{
     color: orange;
     border-radius: 2em;
 }
-section{
+.flexible-con{
     display: flex;
     margin-bottom: 100px;
 
@@ -47,3 +47,35 @@ section{
     background-position: right;
 
 }
+.paddi{
+box-shadow:10px 10px 40px lawngreen;
+margin-left: 5%;
+margin-right: 5%;
+width: 40%;
+padding-left: 20px;
+border-radius: 10px;
+border-left:10px solid;
+
+}
+.experience{
+        background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+#web-dev{
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+    
+}
+#full-stack{
+    border-image:linear-gradient(brown,violet);
+    border-image-slice: 1;
+    border-left: 7px solid;
+    
+}
+    
+#foot{
+    text-align: center;
+}
+
