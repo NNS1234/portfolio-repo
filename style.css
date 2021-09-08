@@ -7,6 +7,7 @@ body{
 }
 h1{
     font-size: 50px;
+    font-weight: 700px;
 }
 
 input{
@@ -24,13 +25,14 @@ input{
     padding-left: 10%;
 }
 .half-width img{
+
     width: 60%;
 }
 .link-button{
     text-decoration: none;
     background-image:linear-gradient(orange,tomato);
     padding:10px 40px;
-    font-weight: 700;
+    font-weight: 800px;
     color: seashell;
     border-radius: 7px;
 
